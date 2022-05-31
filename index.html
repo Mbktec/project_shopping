@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-food</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class=" navbar-light ">
+        <div class="container-fluid d-flex bg-light justify-content-around">
+          <a class="navbar-brand" href="#"><img src="image/75.webp" class="cercle" style="width: 80px; height: 44px;" alt=""></a>
+        <div>
+        <ul class="d-flex list my-2 text-primary ">
+          <li> <a href="" class="navbar-brand text-primary">Home</a> </li>
+          <li> <a href="" class="navbar-brand text-primary">About</a> </li>
+          <li> <a href="" class="navbar-brand text-primary">Store</a> </li>
+        </ul>
+      </div>
+        <div class="my-2 text-primary">
+        <h4 ><i class="bi bi-telephone-fill "></i>+123 456 789</h4>
+        </div>
+
+        <button  type="button" class="btn btn-success" id="panierClick">
+          <div ><span class="total"><i class="bi bi-bag-plus"></i></span></div> 
+        </button>
+      </div>
+    </div>
+  </div>
+    </nav>
+
+
+    <div class="container-fluid Ima">
+      <div class="chario" id="charette">
+      
+
+        <div class="panier">
+          <div class="contenu" id="container">
+            
+          </div>
+          <div class="price d-flex my-4 justify-content-between ">
+            <h3 class="mx-4">Total: </h3>
+            <h3 class="me-4"> $<span class="allElem " >0</span> </h3>
+          </div>
+          <div class="checked">
+            <button class="btnClear btn bg-danger">CLEAR CART</button>
+            <button class="btnCheckout btn bg-success">CHECKOUT</button>
+          </div>
+        </div>
+      </div>
+      <p><span class="display-3 text-primary">Welcome To</span> <h2 class="display-2 text-pink">Super Fast Food</h2></p>
+      <button type="button" class="btn btn-dark">Explorer</button> 
+      <div class="about" ></div>
+    </div>
+    <div class="container ">
+      <div class="row py-5 ">
+        <div class="col text-center"> 
+          <h1><span class="text-primary">A</span> Propos</h1>
+          <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias unde dolorem fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum possimus cum excepturi minima inventore rem temporibus consequatur amet quaerat! Rerum nihil neque veritatis! Magni, id velit quod deserunt accusamus illum!</p>
+          <button class="btn ">EXPLORE</button> 
+        </div>
+       
+          <div class="col-5 imTr ">
+            <img src="image/pexels-katerina-holmes-5908019.jpg" class="img-fluid" style=" height: 30vh;" alt="">
+            
+        </div>
+        
+      </div>
+    </div>
+
+
+   <div class="container">
+    <div class="row ">
+      <div class="col-10 mx-auto col-sm-6 text-center">
+        <h1 class="text-capitalize ">our <strong class="banner-title text-primary">store</strong></h1>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase "> all</a>
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">cakes</a>
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">cupcakes</a>
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">sweets</a>
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">doughnuts</a>
+      </div>
+    </div>
+    <div class="row my-4">
+
+      <div class="col-10 mx-auto col-md-6">
+        <form>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend ">
+              <button class="input-group-text search-box" id="search-icon"><i class="bi bi-search"></i></button>
+            </div>
+            <input type="text" class="form-control" placeholder='item....' id="search-item">
+          </div>
+
+        </form>
+      </div>
+    
+    </div>
+          </div>
+    
+<div class="container">
+  <div class=" produits " id="products"></div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
